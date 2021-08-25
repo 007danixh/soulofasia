@@ -44,11 +44,11 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo" /></a>
+                        <a class="navbar-brand" href="{{ route('home') }}"><img src="img/logo.png" alt="logo" /></a>
                     </div>
                     <div class="navbar-collapse collapse ">
                         <ul class="nav navbar-nav">
-                            <li class="active"><a href="index.html">Home</a></li>
+                            <li class="active"><a href="{{ route('home') }}">Home</a></li>
                             <li class="dropdown">
                                 <a href="#" data-toggle="dropdown" class="dropdown-toggle">About Us <b
                                         class="caret"></b></a>
@@ -70,7 +70,7 @@
         </header>
         <!-- end header -->
 
-@yield('content')
+        @yield('content')
 
         <footer>
             <div class="container">
