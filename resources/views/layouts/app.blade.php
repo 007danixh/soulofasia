@@ -128,9 +128,8 @@
                         <div class="col-lg-6">
                             <div class="copyright">
                                 <p>
-                                    <span>&copy; Bootstrap Template 2018 All right reserved. Template By </span><a
-                                        href="http://webthemez.com/free-bootstrap-templates/"
-                                        target="_blank">WebThemez</a>
+                                    <span>&copy; Soul Of Asia {{ \Carbon\Carbon::now()->format('Y') }} All right reserved. Made by </span><a
+                                        href="http://sites.google.com/view/danishwani" target="_blank">Danish wani</a>
                                 </p>
                             </div>
                         </div>
